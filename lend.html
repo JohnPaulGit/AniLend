@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn how to list farm equipment with AniLend.">
+    <title>List Equipment | AniLend</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="lend-content">
+        <header class="lend-heading">
+            <h1>List your equipment</h1>
+            <p>Share details about equipment you would like to make available to local farmers.</p>
+        </header>
+
+        <div class="form-container">
+            <section class="form-panel">
+                <h2 class="form-section-title">Equipment details</h2>
+                <p class="form-help">Fields marked with * are required.</p>
+                <form>
+                    <div class="form-group">
+                        <label for="tool-name">Tool or machine name *</label>
+                        <input id="tool-name" name="tool-name" type="text" placeholder="For example, rice thresher" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="tool-category">Category *</label>
+                        <select id="tool-category" name="tool-category" required>
+                            <option value="">Choose a category</option>
+                            <option>Soil cultivation</option>
+                            <option>Harvesting and threshing</option>
+                            <option>Irrigation and water pumps</option>
+                            <option>Power and generators</option>
+                            <option>Other farm tools</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="daily-rate">Daily rental rate in PHP *</label>
+                        <input id="daily-rate" name="daily-rate" type="number" min="1" step="1" placeholder="For example, 500" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="description">Description and condition *</label>
+                        <textarea id="description" name="description" rows="4" placeholder="Include the equipment condition and useful details" required></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="owner-contact">Owner contact number *</label>
+                        <input id="owner-contact" name="owner-contact" type="tel" autocomplete="tel" placeholder="09XX-XXX-XXXX" required>
+                    </div>
+
+                </form>
+            </section>
+
+            <section class="map-panel">
+                <h2 class="form-section-title">Equipment photos</h2>
+                <p class="form-help">Choose a main photo and up to four extra photos.</p>
+                <div class="equipment-photos">
+                    <div class="form-group">
+                        <label for="main-photo">Main equipment photo</label>
+                        <input id="main-photo" name="main-photo" type="file" accept="image/*">
+                    </div>
+                    <div class="form-group">
+                        <label for="extra-photo-1">Extra photo 1</label>
+                        <input id="extra-photo-1" name="extra-photo-1" type="file" accept="image/*">
+                    </div>
+                    <div class="form-group">
+                        <label for="extra-photo-2">Extra photo 2</label>
+                        <input id="extra-photo-2" name="extra-photo-2" type="file" accept="image/*">
+                    </div>
+                    <div class="form-group">
+                        <label for="extra-photo-3">Extra photo 3</label>
+                        <input id="extra-photo-3" name="extra-photo-3" type="file" accept="image/*">
+                    </div>
+                    <div class="form-group">
+                        <label for="extra-photo-4">Extra photo 4</label>
+                        <input id="extra-photo-4" name="extra-photo-4" type="file" accept="image/*">
+                    </div>
+                </div>
+
+                <h2 class="pickup-heading">Pickup area</h2>
+                <p class="form-help">Example location: Manolo Fortich, Bukidnon.</p>
+                <div class="map-container">
+                    <iframe title="Map of Manolo Fortich, Bukidnon" src="https://www.google.com/maps?q=Manolo+Fortich,+Bukidnon&amp;output=embed" loading="lazy"></iframe>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="brand_area">
+            <span class="Ani_Footer">Ani<span class="Lend_Footer">Lend</span></span>
+        </div>
+        <p>Sharing farm tools, growing local communities.</p>
+        <p>© 2026 AniLend. A community project.</p>
+    </footer>
+</body>
+
+</html>

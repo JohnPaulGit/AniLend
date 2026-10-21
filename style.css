@@ -1,0 +1,943 @@
+/* ----------------------------------
+       PARA SA LAHAT NGA AREA
+       -------------------------  */
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+h1,
+h2,
+h3,
+p {
+    font-family: 'Manrope', Arial, sans-serif;
+    color: rgb(0, 83, 0);
+    
+}
+
+
+
+/* ----------------------------------
+     HEADER AREA THIS PART PERD
+       -------------------------  */
+.header {
+    background-color: white;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    padding: 20px;
+    font-family: 'Manrope', Arial, sans-serif;
+
+}
+
+.brand_area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Lend_Header {
+    color: goldenrod;
+    font-weight: bold;
+    font-size: 26px;
+    font-family: 'Manrope', Arial, sans-serif;
+}
+
+.Ani_Header {
+    color: green;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'DM Sans', Arial, sans-serif;
+}
+
+.brand_area small {
+    font-size: 12px;
+    color: green;
+}
+
+/* ----------------------------------
+     DIRI NAVIGATION PERD
+       -------------------------  */
+
+#site-nav {
+    display: flex;
+    gap: 50px;
+}
+
+#site-nav a {
+    color: green;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+#site-nav a:hover {
+    color: goldenrod;
+}
+
+/* ----------------------------------
+        IFRAME - FOOTER
+       -------------------------  */
+
+.main {
+    background-color: rgba(243, 243, 243, 0.884);
+    flex: 1;
+    min-height: 0;
+    width: 100%;
+    background: url("images/farm-background.jpg") center / cover;
+}
+
+iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+
+footer {
+    background-color: #203d2a;
+    gap: 0px;
+    padding: 10px;
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Manrope', Arial, sans-serif;
+}
+
+footer p {
+    color: white;
+    font-size: 15px;
+    font-family: 'Manrope', Arial, sans-serif;
+    align-items: center;
+}
+
+.Ani_Footer {
+    color: green;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'DM Sans', Arial, sans-serif;
+}
+
+.Lend_Footer {
+    color: goldenrod;
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Manrope', Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ----------------------------------
+       HOME AREA THIS PART PERD
+       -------------------------  */
+
+.cta-container{
+    display: flex;
+}
+.btn-lend,
+.btn-rent {
+    padding: 10px;
+    margin: 15px;
+    font-size: 15px;
+    background-color: darkgreen;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.welcome_home {
+    background-color: rgba(255, 255, 255, 0.684);
+    padding: 80px;
+    margin: 100px;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.welcome_home h1 {
+    font-size: 50px;
+    text-align: center;
+    align-items: center;
+}
+
+.welcome_home p {
+    margin-bottom: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.custom_Ani {
+    color: green;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: 'DM Sans', Arial, sans-serif;
+
+}
+
+.custom_Lend {
+    color: goldenrod;
+    font-weight: bold;
+    font-size: 46px;
+    font-family: 'Manrope', Arial, sans-serif;
+}
+
+.catalog-content p{
+    text-align: center;
+    align-content: center;
+}
+.rental-card{
+    align-items: center;
+}
+.rental-card a{
+    display: inline-block; 
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.how-it-works {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.684);
+    padding: 80px;
+    margin: 80px;
+    border-radius: 30px;
+}
+
+.how-it-works h2 {
+    font-size: 40px;
+}
+
+.how-it-works p {
+    font-size: 17px;
+}
+
+.section-intro {
+    margin-bottom: 30px;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.feature-card {
+    max-width: 300px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.684);
+    border-radius: 8px;
+}
+
+.feature-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.feature-card h3 {
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+
+
+.featured-items {
+    background-color: rgba(255, 255, 255, 0.684);
+    text-align: center;
+    padding: 50px 30px;
+    margin: 50px;
+    border-radius: 30px;
+}
+
+.featured-title {
+    margin: 0 0 30px;
+    color: darkgreen;
+    font-size: 36px;
+}
+
+.featured-grid {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.featured-grid .card {
+    flex: 1 1 250px;
+    max-width: 350px;
+    overflow: hidden;
+    border-radius: 14px;
+    background-color: rgba(255, 255, 255, 0.94);
+    box-shadow: 0 4px 14px rgba(24, 55, 34, .12);
+    text-align: left;
+}
+
+.featured-grid .card-img {
+    height: 180px;
+    overflow: hidden;
+}
+
+.featured-grid .card-img img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.featured-grid .card-body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 18px;
+}
+
+.featured-grid .item-name {
+    margin: 0 0 8px;
+    color: #203d2a;
+    font-size: 20px;
+}
+
+.featured-grid .card-body p {
+    color: #4e6252;
+}
+
+.featured-grid .location {
+    margin: 0 0 10px;
+    color: #68736a;
+    font-size: 13px;
+}
+
+.featured-grid .desc {
+    flex: 1;
+    margin: 0 0 14px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.featured-grid .price {
+    margin: 0 0 14px;
+    color: darkgreen;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.featured-grid .price span {
+    color: #68736a;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.featured-grid .card-link {
+    align-self: center;
+    margin-top: auto;
+    color: darkgreen;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.featured-grid .card-link:hover {
+    text-decoration: underline;
+}
+
+.featured-items > p {
+    margin-top: 30px;
+}
+
+
+
+
+
+/* RENT, LEND AND ABOUT PAGES */
+.catalog-content,
+.lend-content {
+    flex: 1;
+    width: min(1100px, calc(100% - 40px));
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.catalog-title {
+    margin: 0 0 10px;
+    color: darkgreen;
+    font-size: 36px;
+    text-align: center;
+}
+.catalog-content p{
+    font-family: 'Manrope', Arial, sans-serif;
+    color: rgb(0, 83, 0);
+    font-size: 15px;
+}
+
+.catalog-content > .catalog-title {
+    box-sizing: border-box;
+    margin-bottom: 24px;
+    padding: 24px;
+    border-radius: 14px;
+    background-color: rgba(255, 255, 255, 0.684);
+    box-shadow: 0 4px 14px rgba(24, 55, 34, .12);
+}
+
+.catalog-content > .catalog-title h1 {
+    margin: 0 0 10px;
+    color: darkgreen;
+    font-size: 36px;
+}
+
+.catalog-content > .catalog-title p {
+    max-width: 720px;
+    margin: 0 auto;
+    color: #4e6252;
+    line-height: 1.6;
+}
+
+.catalog-intro {
+    color: #4e6252;
+    line-height: 1.6;
+}
+
+.catalog-intro {
+    margin: 0 auto 30px;
+    max-width: 720px;
+    text-align: center;
+}
+
+.rental-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 22px;
+}
+
+.rental-card {
+    display: flex;
+    min-width: 0;
+    flex-direction: column;
+    overflow: hidden;
+    border-radius: 14px;
+    background: white;
+    box-shadow: 0 4px 14px rgba(24, 55, 34, .12);
+}
+
+.rental-card img {
+    display: block;
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.rental-card-body {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 18px;
+}
+
+.rental-card h2 {
+    margin: 0 0 8px;
+    color: #203d2a;
+    font-size: 20px;
+}
+
+.rental-card p {
+    color: #4e6252;
+    line-height: 1.5;
+}
+
+.rental-card .location {
+    margin: 0 0 10px;
+    color: #68736a;
+    font-size: 13px;
+}
+
+.rental-card .description {
+    flex: 1;
+    margin: 0 0 14px;
+    font-size: 14px;
+}
+
+.rental-card .price {
+    margin: 0;
+    color: darkgreen;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.rental-card .price span {
+    color: #68736a;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.rent-now-button {
+    align-self: center;
+    margin-top: 16px;
+    padding: 11px 22px;
+    border: 0;
+    border-radius: 6px;
+    background: darkgreen;
+    color: white;
+    font: bold 15px 'Manrope', Arial, sans-serif;
+    opacity: 1;
+}
+
+.rent-now-button:disabled {
+    cursor: default;
+}
+
+.rental-info {
+    box-sizing: border-box;
+    width: min(760px, 100%);
+    margin: 32px auto 0;
+    padding: 20px 24px;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.684);
+    box-shadow: 0 4px 14px rgba(24, 55, 34, .12);
+}
+.rent_h2{
+    box-sizing: border-box;
+    margin-bottom: 24px;
+    padding: 24px;
+    border-radius: 14px;
+    background-color: rgba(255, 255, 255, 0.684);
+    box-shadow: 0 4px 14px rgba(24, 55, 34, .12);
+}
+.rental-info h2 {
+    margin: 0 0 14px;
+    color: #203d2a;
+    text-align: center;
+}
+
+.rental-info ol {
+    box-sizing: border-box;
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto;
+    padding-left: 24px;
+}
+
+.rental-info li {
+    margin: 8px 0;
+    color: #4e6252;
+}
+
+.lend-content > h1,
+.about-content h1,
+.about-content h2 {
+    color: #203d2a;
+}
+
+.lend-heading {
+    box-sizing: border-box;
+    margin-bottom: 28px;
+    padding: 24px;
+    border-radius: 14px;
+    background-color: rgba(255, 255, 255, 0.684);
+    box-shadow: 0 4px 14px rgba(24, 55, 34, .12);
+    text-align: center;
+}
+
+.lend-heading h1 {
+    margin: 0 0 10px;
+    color: darkgreen;
+    font-size: 36px;
+}
+
+.lend-heading p {
+    max-width: 720px;
+    margin: 0 auto;
+    color: #4e6252;
+    line-height: 1.6;
+}
+
+.form-container {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    align-items: start;
+    gap: 28px;
+}
+
+.form-panel,
+.map-panel,
+.about-panel {
+    box-sizing: border-box;
+    padding: 28px;
+    border-radius: 14px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0 6px 20px rgba(24, 55, 34, .12);
+}
+
+.form-panel h2,
+.map-panel h2 {
+    margin: 0 0 12px;
+    color: #203d2a;
+}
+
+.form-section-title {
+    padding-bottom: 12px;
+    border-bottom: 2px solid rgba(0, 100, 0, .16);
+    font-size: 24px;
+}
+
+.form-help {
+    margin: 0 0 22px;
+    color: #58665b;
+    line-height: 1.5;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 6px;
+    color: #203d2a;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 11px 12px;
+    border: 1px solid #bbc8bb;
+    border-radius: 6px;
+    background: white;
+    color: #25352a;
+    font: inherit;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    outline: 2px solid #679064;
+    outline-offset: 1px;
+}
+
+.equipment-photos {
+    display: grid;
+    gap: 4px 14px;
+    margin: 16px 0 24px;
+}
+
+.equipment-photos .form-group:first-child {
+    grid-column: 1 / -1;
+    padding: 16px;
+    border: 1px dashed #8da88a;
+    border-radius: 8px;
+    background: rgba(244, 249, 242, .9);
+}
+
+.equipment-photos input {
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+}
+
+.pickup-heading {
+    margin-top: 26px !important;
+}
+
+.map-container,
+.about-map-container {
+    min-height: 280px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.map-container iframe,
+.about-map-container iframe {
+    display: block;
+    width: 100%;
+    height: 300px;
+    border: 0;
+}
+
+.about-content {
+    flex: 1;
+    padding-bottom: 40px;
+}
+
+.about-banner {
+    padding: 46px 24px;
+    background: rgba(32, 61, 42, .94);
+    color: white;
+    text-align: center;
+}
+
+.about-banner h1 {
+    margin: 0 0 8px;
+    color: white;
+    font-size: 38px;
+}
+
+.about-banner p {
+    max-width: 720px;
+    margin: 0 auto;
+    color: white;
+    line-height: 1.6;
+}
+
+.about-section {
+    width: min(1000px, calc(100% - 40px));
+    margin: 30px auto;
+}
+
+.about-reasons,
+.about-project,
+.project-team,
+.about-location {
+    box-sizing: border-box;
+    padding: 28px;
+    border: 1px solid rgba(32, 61, 42, .08);
+    border-radius: 18px;
+    background: linear-gradient(135deg, rgba(238, 246, 232, .96), rgba(255, 255, 255, .82));
+    box-shadow: 0 6px 20px rgba(24, 55, 34, .1);
+}
+
+.about-section > h2 {
+    margin: 0 0 22px;
+    text-align: center;
+}
+
+.about-panels {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.about-panel p {
+    color: #4e6252;
+    line-height: 1.65;
+}
+
+.about-project > .about-panel {
+    max-width: 780px;
+    margin: 0 auto;
+}
+
+.about-actions {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 24px;
+}
+
+.about-actions .btn-rent,
+.about-actions .btn-lend {
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+}
+
+.team-frames {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 28px;
+}
+
+.team-frame {
+    box-sizing: border-box;
+    width: min(280px, 100%);
+    margin: 0;
+    padding: 12px;
+    border: 1px solid rgba(32, 61, 42, .16);
+    border-radius: 14px;
+    background: rgba(255, 255, 255, .9);
+    box-shadow: 0 5px 16px rgba(24, 55, 34, .12);
+    text-align: center;
+}
+
+.team-photo,
+.team-photo-placeholder {
+    display: block;
+    width: 100%;
+    aspect-ratio: 4 / 3;
+    border-radius: 8px;
+}
+
+.team-photo {
+    object-fit: cover;
+    object-position: center 15%;
+}
+
+.team-photo-placeholder {
+    display: grid;
+    place-items: center;
+    border: 2px dashed #9bad98;
+    background: #f2f6ef;
+    color: #68736a;
+    font-size: 14px;
+}
+
+.team-frame figcaption {
+    padding: 12px 4px 2px;
+    color: #203d2a;
+    font-weight: bold;
+}
+
+.team-intro {
+    max-width: 680px;
+    margin: 24px auto 0;
+    color: #4e6252;
+    line-height: 1.65;
+    text-align: center;
+}
+
+.about-map-container {
+    min-width: 0;
+    background: #e9efe8;
+}
+
+.location-contact-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1.4fr) minmax(230px, .8fr);
+    gap: 22px;
+    align-items: stretch;
+}
+
+.contact-panel {
+    box-sizing: border-box;
+    padding: 24px;
+    border: 1px solid rgba(32, 61, 42, .12);
+    border-radius: 14px;
+    background: rgba(255, 255, 255, .9);
+    box-shadow: 0 5px 16px rgba(24, 55, 34, .1);
+}
+
+.contact-panel h3 {
+    margin: 0 0 10px;
+    color: #203d2a;
+    font-size: 23px;
+}
+
+.contact-note {
+    margin: 0 0 18px;
+    color: #68736a;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.contact-panel dl {
+    margin: 0;
+}
+
+.contact-panel dl > div {
+    margin-top: 14px;
+}
+
+.contact-panel dt {
+    margin-bottom: 4px;
+    color: #68736a;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.contact-panel dd {
+    margin: 0;
+    color: #203d2a;
+    overflow-wrap: anywhere;
+}
+
+.contact-panel dd span {
+    color: #68736a;
+    font-size: 12px;
+}
+
+.about-panel .btn-rent,
+.about-panel .btn-lend {
+    display: inline-block;
+    margin: 0;
+}
+
+@media (max-width: 700px) {
+    .header {
+        margin: 0;
+        padding: 14px 18px;
+        gap: 18px;
+        flex-wrap: wrap;
+    }
+
+    #site-nav {
+        gap: 16px;
+        flex-wrap: wrap;
+    }
+
+    .form-container,
+    .about-panels,
+    .location-contact-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .equipment-photos {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .featured-items,
+    .how-it-works {
+        margin: 24px;
+        padding: 36px 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    .catalog-content,
+    .lend-content {
+        width: calc(100% - 28px);
+        padding: 24px 0;
+    }
+
+    .featured-title,
+    .catalog-title {
+        font-size: 28px;
+    }
+
+    .featured-items,
+    .how-it-works {
+        margin: 16px;
+        padding: 28px 16px;
+    }
+
+    .welcome_home {
+        margin: 24px 16px;
+        padding: 36px 20px;
+    }
+}
